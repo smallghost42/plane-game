@@ -1,21 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726029651
-::res://assets/::1726028826
-bg.png::CompressedTexture2D::9192803788762177893::1726028787::1726028826::1::::<><>::
-bird1.png::CompressedTexture2D::7552353204301932291::1726028787::1726028826::1::::<><>::
-bird2.png::CompressedTexture2D::2165203763518023126::1726028787::1726028826::1::::<><>::
-bird3.png::CompressedTexture2D::4901177303925308939::1726028787::1726028826::1::::<><>::
-ground.png::CompressedTexture2D::6203230542306921874::1726028787::1726028826::1::::<><>::
-pipe.png::CompressedTexture2D::7468648525441629381::1726028787::1726028826::1::::<><>::
-restart.png::CompressedTexture2D::6944878011760088689::1726028787::1726028826::1::::<><>::
-::res://scenes/::1726029078
-bird.gd::GDScript::-1::1726028787::0::1::::<>CharacterBody2D<>::
-bird.tscn::PackedScene::4610956366753879868::1726028787::0::1::::<><>::res://scenes/bird.gd<>uid://dfuofh4nwer0n::::res://assets/bird1.png<>uid://533ubvnyvpxe::::res://assets/bird2.png<>uid://cb3fw6j2c364v::::res://assets/bird3.png
-game_over.gd::GDScript::-1::1726028787::0::1::::<>CanvasLayer<>::
-game_over.tscn::PackedScene::1291306677066036045::1726028787::0::1::::<><>::res://scenes/game_over.gd<>uid://c57fej47adq38::::res://assets/restart.png
-ground.gd::GDScript::-1::1726028787::0::1::::<>Area2D<>::
-ground.tscn::PackedScene::9084329947161726892::1726028787::0::1::::<><>::res://scenes/ground.gd<>uid://cum5khv3jtce1::::res://assets/ground.png
-main.gd::GDScript::-1::1726029077::0::1::::<>Node<>::
-main.tscn::PackedScene::3178911161594009601::1726029078::0::1::::<><>::res://scenes/main.gd<>uid://d38ceuoo614k4::::res://assets/bg.png<>uid://cr3pl7yfk32tb::::res://scenes/pipe.tscn<>uid://b6xt1pam4caki::::res://scenes/bird.tscn<>uid://d2ort7tfi33lg::::res://scenes/ground.tscn<>uid://snrvq7jkapgf::::res://scenes/game_over.tscn
-pipe.gd::GDScript::-1::1726028787::0::1::::<>Area2D<>::
-pipe.tscn::PackedScene::6024786403035060627::1726028787::0::1::::<><>::res://scenes/pipe.gd<>uid://den4sx3n8oo4t::::res://assets/pipe.png
+::res://::1726037012
+::res://assets/::1726037012
+BG.png::CompressedTexture2D::8726492617593758053::1726033757::1726033757::1::::<><>::
+Fly (1).png::CompressedTexture2D::6975421282708771997::1726033771::1726033771::1::::<><>::
+Fly (2).png::CompressedTexture2D::2768600757621603203::1726033771::1726033771::1::::<><>::
+ground.png::CompressedTexture2D::6203230542306921874::1726033514::1726033607::1::::<><>::
+pipe.png::CompressedTexture2D::7468648525441629381::1726033514::1726037012::1::::<><>::
+restart.png::CompressedTexture2D::6944878011760088689::1726033514::1726033607::1::::<><>::
+scientific-education-plant-its-root.png::CompressedTexture2D::1567498675142554006::1726035869::1726035870::1::::<><>::
+set-game-ground-layers-assets.png::CompressedTexture2D::6315946999000033560::1726035124::1726035124::1::::<><>::
+Shoot (1).png::CompressedTexture2D::7727252900521777315::1726034642::1726034677::1::::<><>::
+Shoot (2).png::CompressedTexture2D::4651697625329000322::1726034642::1726034678::1::::<><>::
+Shoot (3).png::CompressedTexture2D::6724584174116535186::1726034642::1726034679::1::::<><>::
+Shoot (4).png::CompressedTexture2D::1865900258948962936::1726034642::1726034681::1::::<><>::
+Shoot (5).png::CompressedTexture2D::6634460695032390646::1726034642::1726034682::1::::<><>::
+::res://scenes/::1726037012
+bird.gd::GDScript::-1::1726036373::0::1::::<>CharacterBody2D<>::
+bird.tscn::PackedScene::4610956366753879868::1726036978::0::1::::<><>::res://scenes/bird.gd<>uid://c6m7f03jhgjur::::res://assets/Fly (1).png<>uid://bfpepkgbabbn4::::res://assets/Fly (2).png<>uid://dideyxuyux03p::::res://assets/Shoot (1).png<>uid://1t4ds8kf4qpc::::res://assets/Shoot (4).png<>uid://b7jk1r8v0cdo1::::res://assets/Shoot (2).png<>uid://c22o6ihn7fjg1::::res://assets/Shoot (3).png<>uid://c1r1ulxf0jkl7::::res://assets/Shoot (5).png
+game_over.gd::GDScript::-1::1726033514::0::1::::<>CanvasLayer<>::
+game_over.tscn::PackedScene::1291306677066036045::1726036978::0::1::::<><>::res://scenes/game_over.gd<>uid://c57fej47adq38::::res://assets/restart.png
+ground.gd::GDScript::-1::1726033514::0::1::::<>Area2D<>::
+ground.tscn::PackedScene::9084329947161726892::1726036978::0::1::::<><>::res://scenes/ground.gd<>uid://cum5khv3jtce1::::res://assets/ground.png
+main.gd::GDScript::-1::1726033677::0::1::::<>Node<>::
+main.tscn::PackedScene::3178911161594009601::1726036978::0::1::::<><>::res://scenes/main.gd<>uid://cr3pl7yfk32tb::::res://scenes/pipe.tscn<>uid://b6xt1pam4caki::::res://scenes/bird.tscn<>uid://dwlgb8tr3xqnt::::res://assets/BG.png<>uid://d2ort7tfi33lg::::res://scenes/ground.tscn<>uid://snrvq7jkapgf::::res://scenes/game_over.tscn
+pipe.gd::GDScript::-1::1726033514::0::1::::<>Area2D<>::
+pipe.tscn::PackedScene::6024786403035060627::1726037012::0::1::::<><>::res://scenes/pipe.gd<>uid://den4sx3n8oo4t::::res://assets/pipe.png

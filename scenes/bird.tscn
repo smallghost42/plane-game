@@ -1,25 +1,41 @@
-[gd_scene load_steps=7 format=3 uid="uid://b6xt1pam4caki"]
+[gd_scene load_steps=11 format=3 uid="uid://b6xt1pam4caki"]
 
 [ext_resource type="Script" path="res://scenes/bird.gd" id="1_jmxwj"]
-[ext_resource type="Texture2D" uid="uid://dfuofh4nwer0n" path="res://assets/bird1.png" id="2_cjltx"]
-[ext_resource type="Texture2D" uid="uid://533ubvnyvpxe" path="res://assets/bird2.png" id="3_rt77f"]
-[ext_resource type="Texture2D" uid="uid://cb3fw6j2c364v" path="res://assets/bird3.png" id="4_h1qdy"]
+[ext_resource type="Texture2D" uid="uid://c6m7f03jhgjur" path="res://assets/Fly (1).png" id="2_ri0v3"]
+[ext_resource type="Texture2D" uid="uid://bfpepkgbabbn4" path="res://assets/Fly (2).png" id="3_a5ga6"]
+[ext_resource type="Texture2D" uid="uid://dideyxuyux03p" path="res://assets/Shoot (1).png" id="4_8saox"]
+[ext_resource type="Texture2D" uid="uid://1t4ds8kf4qpc" path="res://assets/Shoot (4).png" id="4_xl8u2"]
+[ext_resource type="Texture2D" uid="uid://b7jk1r8v0cdo1" path="res://assets/Shoot (2).png" id="5_gs7xq"]
+[ext_resource type="Texture2D" uid="uid://c22o6ihn7fjg1" path="res://assets/Shoot (3).png" id="6_fhglv"]
+[ext_resource type="Texture2D" uid="uid://c1r1ulxf0jkl7" path="res://assets/Shoot (5).png" id="8_0wrpn"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xn4pq"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_cjltx")
+"texture": ExtResource("2_ri0v3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_rt77f")
+"texture": ExtResource("3_a5ga6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_h1qdy")
+"texture": ExtResource("4_8saox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gs7xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_fhglv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xl8u2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0wrpn")
 }],
 "loop": true,
 "name": &"flying",
-"speed": 5.0
+"speed": 15.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0hppq"]
@@ -30,8 +46,12 @@ height = 52.0
 script = ExtResource("1_jmxwj")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, 2.38419e-07)
+scale = Vector2(0.119205, 0.119205)
 sprite_frames = SubResource("SpriteFrames_xn4pq")
 animation = &"flying"
+frame = 4
+frame_progress = 0.77016
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708

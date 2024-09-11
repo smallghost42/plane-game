@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb3fw6j2c364v"
-path="res://.godot/imported/bird3.png-f9c6b58c0b79dca9a32430fbf9b734b9.ctex"
+uid="uid://wlkqeet81y43"
+path="res://.godot/imported/scientific-education-plant-its-root.png-0ea761f6dc47541473d1808fc989aca5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bird3.png"
-dest_files=["res://.godot/imported/bird3.png-f9c6b58c0b79dca9a32430fbf9b734b9.ctex"]
+source_file="res://assets/scientific-education-plant-its-root.png"
+dest_files=["res://.godot/imported/scientific-education-plant-its-root.png-0ea761f6dc47541473d1808fc989aca5.ctex"]
 
 [params]
 

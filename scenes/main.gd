@@ -23,7 +23,6 @@ func new_game():
 	game_over = false
 	score = 0
 	scroll = 0
-	$ScoreLabel.text = "SCORE: " + str(score)
 	$GameOver.hide()
 	get_tree().call_group("pipes", "queue_free")
 	pipes.clear()
